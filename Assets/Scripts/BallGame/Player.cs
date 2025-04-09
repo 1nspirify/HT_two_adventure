@@ -79,8 +79,8 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        _rigidbody.AddForce(Vector3.right * (_xForce * _speed));
-        _rigidbody.AddForce(Vector3.forward * (_zForce * _speed));
+        _rigidbody.AddForce(Vector3.right * (_xForce * _speed),ForceMode.Force);
+        _rigidbody.AddForce(Vector3.forward * (_zForce * _speed),ForceMode.Force);
     }
 
     private void OnCollisionStay(Collision other)
