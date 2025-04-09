@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Vector3 = System.Numerics.Vector3;
 
 public class MazeController : MonoBehaviour
 {
